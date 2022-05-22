@@ -1,10 +1,23 @@
 <template>
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand">Covid App</a>
+    </div>
+  </nav>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Dashboard</router-link>
   </nav>
   <router-view/>
 </template>
+
+<script>
+
+
+  export default {
+    components: {
+    }
+  }
+</script>
 
 <style lang="scss">
 #app {
